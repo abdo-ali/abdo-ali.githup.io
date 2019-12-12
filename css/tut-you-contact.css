@@ -1,0 +1,128 @@
+
+/************* Tutorials *************/
+
+.tutorials {
+    background-color: #253342;
+    text-align: center;
+    padding-top: 50px;
+    height: 650px;
+}
+.tutorials h1 {
+    color: white;
+}
+
+.row {
+    height: 300px;
+    margin: 10px auto;
+}
+.col-3 {
+    color: white;
+    width: 32%;
+    padding: 10px;
+    float: left;
+    margin-right: 1%;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+}
+.col-3 img {
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    box-shadow: 0px 5px 15px black;
+    width: 100%;
+    max-width: 260px;
+}
+.col-left {
+    margin-left: 1%;
+}
+.tut-header {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.cla.tuts {
+   
+    background-color: white;
+    color: black;
+    box-shadow: 0px 5px black;
+    margin-top: 5px;
+    
+}.cla.tuts:active {
+    box-shadow: none;
+    transform: translatey(5px);
+}
+
+/************* Youtube *************/
+#youtube {
+    text-align: center;
+    padding: 50px;
+}
+#youtube h1{
+    margin-bottom: 10px;
+}
+.vedioframe{
+    position: relative;
+    padding-bottom: 50.25%;
+    padding-top: 25px;
+    height: 40%;
+    width: 85%;
+}
+.vedio {
+    position: absolute;
+    top: 0;
+    left: 0;
+    vertical-align: middle;
+    width: 1000px;
+    height: 600px;
+    margin-left: 120px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 5px 15px black;
+}
+/************* contact *************/
+#contact {
+    text-align: center;
+    background-color: #f2f4f4;
+    padding: 50px 0px;
+    height: 650px;
+}
+.col-2 {
+    width: 50%;
+    float: left;
+    height: 400px;
+}
+.map {
+    padding-left: 90px;
+}
+input[type="text"], textarea {
+    background-color: white;
+    width: 80%;
+    height: 40px;
+    border: 1px solid #999;
+    border-radius: 15px;
+    margin: 5px 0px;
+    direction: ltr;
+    padding: 0px 20px;
+    font-size: 14px;
+    font-weight: bolder;
+}
+textarea {
+    height: auto;
+}
+
+#about-Tut {
+    text-align: left;
+    height: 400px;
+    width: 600px;
+    margin: 0px 30px;
+}
+#about-Tut h1 {
+    //padding-top: 40px;
+    line-height: 30px;
+}
+
+
+#about-Tut p {
+    font-size: 20px;
+    line-height: 1.6;
+    padding: 20px 0px 20px 0px;
+}
+

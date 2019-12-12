@@ -1,0 +1,66 @@
+
+/************************************************************************************************/
+/*Tut.html*/
+#Tut {
+    //background-color: #253342;
+    text-align: center;
+    padding-top: 0px;
+    height: 450px;
+    padding: 15px;
+}
+.vedio-tut {
+    position: absolute;
+    top: 0;
+    left: 0;
+    vertical-align: middle;
+    width: 100%; !important;
+    height: 100%; !important;
+    margin-left: 30px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 5px 15px black;
+}
+
+
+/************************************************************************************************/
+/*about.html*/
+
+.about_page {
+    text-align: center;
+    height: 400px;
+    width: 600px;
+    margin: 0px auto;
+}
+
+.about_page h1 {
+    padding-top: 20px;
+}
+
+
+.about_page p {
+    font-size: 20px;
+    line-height: 1.6;
+    padding: 20px 0px 20px 0px;
+    //font-weight: bold;
+    text-align: left;
+}
+
+.about_page a {
+    color: black;
+    text-align: left;
+}
+/*hero in all html*/
+#other_hero {
+    height: 150px;
+    width: 100%;
+    /*background-image: url(../imgs/nav-background.jpg") no-repeat center center;*/
+    margin-bottom: 40px;
+
+}
+
+.post-info {
+    font-size: 90%;
+    color: #999;
+    font-style: italic;
+    margin-top: -20px;
+    margin-bottom: 10px;
+}
