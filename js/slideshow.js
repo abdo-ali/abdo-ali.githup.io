@@ -1,3 +1,22 @@
+
+
+function Img_1()
+{
+    
+    window.location.href = ("file:///C:/Users/Taha/Desktop/New%20folder%20(2)/Tut.html#ht");
+    
+} 
+function Img_2()
+{
+    window.location.href = "file:///C:/Users/Taha/Desktop/New%20folder%20(2)/Tut.html#cs";
+}
+
+function Img_3()
+{
+    window.location.href = "file:///C:/Users/Taha/Desktop/New%20folder%20(2)/Tut.html#js";
+}
+//slide show operation
+
     var slideIndex = 0;
     showSlides();
 
@@ -17,5 +36,46 @@
       dots[slideIndex-1].className += " active";
       setTimeout(showSlides, 2000); // Change image every 2 seconds
 }
+
+
+ //form operation >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+var Name = document.getElementById("Name");
+var email = document.getElementById("Email");
+var Phone_Namber = document.querySelector('#Phone_Namber');
+
+Name.addEventListener('focus' , onfun);
+Name.addEventListener('blur' , onBlur);    
+email.addEventListener('focus' , onfun);
+email.addEventListener('blur' , onBlur);
+Phone_Namber.addEventListener('focus' , onfun);
+Phone_Namber.addEventListener('blur' , onBlur);
+
+  function onfun(){
+      
+    if(this.value == this.id )this.value="";
+}
+function onBlur(){
+    if(this.value.length===0){
+        this.value=this.id;
+    }
+    console.log(this.value);
+}
+//click enter when i insert my data
+Name.addEventListener('keyup',function(event)
+{
+    if (event.keyCode ===13){window.alert("hey enter");}
+
+});
+
+//operation on click sumbit>>>>>>>>>>>>>>>
+
+ function focsubm ()
+ {
+
+      if(Name.value!="Name" > 4 && email.value!="Email" && Phone_Namber.value!="Website") 
+        window.alert("message sent succesfully thakyou for contacting with us");
+    
+ }
+
 
 
