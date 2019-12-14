@@ -3,17 +3,17 @@
 function Img_1()
 {
     
-    window.location.href = ("file:///C:/Users/Taha/Desktop/New%20folder%20(2)/Tut.html#ht");
+    window.location.href = ("../Tut.html#ht");
     
 } 
 function Img_2()
 {
-    window.location.href = "file:///C:/Users/Taha/Desktop/New%20folder%20(2)/Tut.html#cs";
+    window.location.href = "../Tut.html#cs";
 }
 
 function Img_3()
 {
-    window.location.href = "file:///C:/Users/Taha/Desktop/New%20folder%20(2)/Tut.html#js";
+    window.location.href = "../Tut.html#js";
 }
 //slide show operation
 
