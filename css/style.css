@@ -6,8 +6,6 @@ gray: #cccccc
 light-gray: #f2f4f4
 */
 
-
-@import url(responsive.css);
 @import url(footer-icons.css);
 @import url(about.css);
 @import url(slideshow.css);

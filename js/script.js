@@ -1,5 +1,5 @@
 
-
+//slide show links
 function Img_1()
 {
     
@@ -15,6 +15,7 @@ function Img_3()
 {
     location.href = "https://abdo-ali.github.io/abdo-ali-2.githup.io/html/Tut.html#js";
 }
+
 //slide show operation
 
     var slideIndex = 0;
@@ -60,6 +61,7 @@ function onBlur(){
     }
     console.log(this.value);
 }
+
 //click enter when i insert my data
 Name.addEventListener('keyup',function(event)
 {
@@ -67,13 +69,13 @@ Name.addEventListener('keyup',function(event)
 
 });
 
-//operation on click sumbit>>>>>>>>>>>>>>>
+//operation on click sumbit>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
  function focsubm ()
  {
 
       if(Name.value!="Name" > 4 && email.value!="Email" && Phone_Namber.value!="Website") 
-        window.alert("message sent succesfully thakyou for contacting with us");
+        window.alert("message sent succesfully thank you for contacting with us");
     
  }
 

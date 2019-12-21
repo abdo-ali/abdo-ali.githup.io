@@ -2,7 +2,6 @@
 /************************************************************************************************/
 /*Tut.html*/
 #Tut {
-    //background-color: #253342;
     text-align: center;
     padding-top: 0px;
     height: 450px;
@@ -40,7 +39,6 @@
     font-size: 20px;
     line-height: 1.6;
     padding: 20px 0px 20px 0px;
-    //font-weight: bold;
     text-align: left;
 }
 
@@ -48,13 +46,11 @@
     color: black;
     text-align: left;
 }
-/*hero in all html*/
+/*************hero in all html*****************/
 #other_hero {
     height: 150px;
     width: 100%;
-    /*background-image: url(../imgs/nav-background.jpg") no-repeat center center;*/
     margin-bottom: 40px;
-
 }
 
 .post-info {
