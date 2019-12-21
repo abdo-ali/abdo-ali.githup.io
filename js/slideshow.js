@@ -3,7 +3,7 @@
 function Img_1()
 {
     
-    window.location.href = ("https://abdo-ali.github.io/abdo-ali-2.githup.io/html/Tut.html#ht");
+    location.href = ("https://abdo-ali.github.io/abdo-ali-2.githup.io/html/Tut.html#ht");
     
 } 
 function Img_2()
@@ -13,7 +13,7 @@ function Img_2()
 
 function Img_3()
 {
-    window.location.href = "https://abdo-ali.github.io/abdo-ali-2.githup.io/html/Tut.html#js";
+    location.href = "https://abdo-ali.github.io/abdo-ali-2.githup.io/html/Tut.html#js";
 }
 //slide show operation
 
