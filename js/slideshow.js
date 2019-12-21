@@ -3,17 +3,17 @@
 function Img_1()
 {
     
-    window.location.href = ("../html/Tut.html#ht");
+    window.location.href = ("abdo-ali-2.githup.io/html/Tut.html#ht");
     
 } 
 function Img_2()
 {
-    window.location.href = "../html/Tut.html#cs";
+    window.location.href = "abdo-ali-2.githup.io/html/Tut.html#cs";
 }
 
 function Img_3()
 {
-    window.location.href = "../html/Tut.html#js";
+    window.location.href = "abdo-ali-2.githup.io/html/Tut.html#js";
 }
 //slide show operation
 
