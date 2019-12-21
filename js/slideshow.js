@@ -8,7 +8,7 @@ function Img_1()
 } 
 function Img_2()
 {
-    window.location.href = "https://abdo-ali.github.io/abdo-ali-2.githup.io/html/Tut.html#cs";
+    location.href = "https://abdo-ali.github.io/abdo-ali-2.githup.io/html/Tut.html#cs";
 }
 
 function Img_3()
